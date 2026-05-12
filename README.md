@@ -8,6 +8,8 @@ This repository contains the official PyTorch implementation of the **PASTA** �
 
 > Alejandro Murillo-González, Mahmoud Ali, and Lantao Liu. **Adaptive Smooth Tchebycheff Attention for Multi-Objective Policy Optimization.** Robotics: Science and Systems (RSS) 2026
 
+PASTA 🍝 enables stable policy optimization for non-Convex Pareto tradeoffs.
+
 ## 🔥 Quick Start
 
 To quickly run the PASTA 🍝 algorithm and reproduce the included minimal demo run the following commands.
@@ -30,7 +32,7 @@ conda activate pasta-env
 
 4. Run the Multi-Objective demo:
 ```bash
-python demo_pasta.py
+python src/demo_pasta.py
 ```
 
 The provided demo illustrates the PASTA 🍝 algorithm within a deliberately minimal multi-objective environment, designed to facilitate rapid evaluation and seamless adaptation.
@@ -40,7 +42,7 @@ The provided demo illustrates the PASTA 🍝 algorithm within a deliberately min
 This repository includes:
 
 - `src/pasta.py` – single-file implementation of the PASTA 🍝 algorithm, including the smoothness controller.
-- `demo_pasta.py` – a minimal demo script showing how to run PASTA 🍝 on a simple MORL environment
+- `src/demo_pasta.py` – a minimal demo script showing how to run PASTA 🍝 on a simple MORL environment
 - `README.md` – this documentation
 - `environment.yml` – Conda environment file with the required dependencies
 
