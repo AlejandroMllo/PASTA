@@ -1,7 +1,7 @@
 # 🍝 PASTA | Adaptive Smooth Tchebycheff Attention for Multi-Objective Policy Optimization
 
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://alejandromllo.github.io/research/pasta/)
-[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b.svg)](https://arxiv.org/abs/2605.12771)
 <!-- [![Conference](https://img.shields.io/badge/RSS-2026-brightgreen)]() -->
 
 This repository contains the official PyTorch implementation of the **PASTA** 🍝 (**P**olicy-optimization via **A**daptive **S**mooth **T**chebycheff **A**ttention) algorithm, as presented in the paper:
